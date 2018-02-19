@@ -1,0 +1,17 @@
+{
+  "name": "roman-numeral-converter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "code . && npm start",
+    "start": "nodemon --watch server.js --exec node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  }
+}
